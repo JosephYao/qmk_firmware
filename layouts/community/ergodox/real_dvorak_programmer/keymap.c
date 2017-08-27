@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                               // thumb cluster
                                                KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
         // right hand
-             KC_F7,       KC_F8,       KC_F9,       KC_F10,        KC_F11,       KC_F12,       KC_BSLS,
+             KC_ASTR,       KC_RPRN,       KC_PLUS,       KC_RBRC,        KC_EXLM,       KC_HASH,       KC_BSPC,
              KC_PGUP,     KC_F,        KC_G,        KC_C,          KC_R,         KC_L,         KC_SLSH,
                           KC_D,        KC_H,        KC_T,          KC_N,         KC_S,         KC_MINS,
              KC_PGDN,     KC_B,        KC_M,        KC_W,          KC_V,         KC_Z,         MO(SHIFT),
@@ -74,7 +74,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // thumb cluster
         KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
 // right hand
-        KC_F7,       KC_F8,       KC_F9,       KC_F10,        KC_F11,       KC_F12,       KC_BSLS,
+        KC_0,       KC_2,       KC_4,       KC_6,        KC_8,       KC_GRV,       KC_BSPC,
         KC_PGUP,     KC_F,        KC_G,        KC_C,          KC_R,         KC_L,         KC_SLSH,
         KC_D,        KC_H,        KC_T,          KC_N,         KC_S,         KC_MINS,
         KC_PGDN,     KC_B,        KC_M,        KC_W,          KC_V,         KC_Z,         KC_TRNS,
