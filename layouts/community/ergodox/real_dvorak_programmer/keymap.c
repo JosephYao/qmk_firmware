@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,                    KC_SCLN,        KC_COMM,     KC_DOT,       KC_P,        KC_Y,        KC_TRNS,
         KC_ESC,              KC_A,           KC_O,        KC_E,         KC_U,        KC_I,
         MO(SHIFT),             KC_QUOT,        KC_Q,        KC_J,         KC_K,        KC_X,        KC_TRNS,
-                   KC_TRNS,KC_TRNS,KC_LCTL,KC_LALT,KC_LGUI,
+                   KC_TRNS,KC_LEFT,KC_LCTL,KC_LALT,KC_LGUI,
                                               // thumb cluster
                                                KC_TRNS,KC_TRNS,
                                                         KC_TRNS,
@@ -57,7 +57,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                           KC_D,        KC_H,        KC_T,          KC_N,         KC_S,         KC_MINS,
              KC_TRNS,     KC_B,        KC_M,        KC_W,          KC_V,         KC_Z,         MO(SHIFT),
                                   // lower keys - browser tab control
-        KC_UP,KC_DOWN,KC_AT,KC_TRNS,KC_BSLASH,
+        KC_UP,KC_DOWN,KC_AT,KC_RIGHT,KC_BSLASH,
              // thumb cluster
         KC_TRNS,KC_TRNS,
         KC_TRNS,
@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,                    KC_COLN,        S(KC_COMM),     S(KC_DOT),       S(KC_P),        S(KC_Y),        KC_TRNS,
         KC_ESC,              S(KC_A),           S(KC_O),        S(KC_E),         S(KC_U),        S(KC_I),
         KC_TRNS,             S(KC_QUOT),        S(KC_Q),        S(KC_J),         S(KC_K),        S(KC_X),        KC_TRNS,
-        KC_TRNS,KC_TRNS,KC_LCTL,KC_LALT,KC_LGUI,
+        KC_TRNS,KC_LEFT,KC_LCTL,KC_LALT,KC_LGUI,
 // thumb cluster
                 KC_TRNS,KC_TRNS,
                         KC_TRNS,
@@ -83,7 +83,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         S(KC_D),        S(KC_H),        S(KC_T),          S(KC_N),         S(KC_S),         KC_UNDS,
         KC_TRNS,     S(KC_B),        S(KC_M),        S(KC_W),          S(KC_V),         S(KC_Z),         KC_TRNS,
 // lower keys - browser tab control
-        KC_UP,KC_DOWN,KC_CIRC,KC_TRNS,KC_PIPE,
+        KC_UP,KC_DOWN,KC_CIRC,KC_RIGHT,KC_PIPE,
 // thumb cluster
         KC_TRNS,KC_TRNS,
         KC_TRNS,
