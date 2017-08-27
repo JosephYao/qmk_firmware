@@ -48,7 +48,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         MO(SHIFT),             KC_QUOT,        KC_Q,        KC_J,         KC_K,        KC_X,        KC_TRNS,
                    KC_TRNS,KC_TRNS,KC_LCTL,KC_LALT,KC_LGUI,
                                               // thumb cluster
-                                               KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+                                               KC_TRNS,KC_TRNS,
+                                                        KC_TRNS,
+                                        KC_SPC,KC_TRNS,KC_TRNS,
         // right hand
              KC_ASTR,       KC_RPRN,       KC_PLUS,       KC_RBRC,        KC_EXLM,       KC_HASH,       KC_BSPC,
              KC_TRNS,     KC_F,        KC_G,        KC_C,          KC_R,         KC_L,         KC_SLSH,
@@ -57,7 +59,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                   // lower keys - browser tab control
         KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
              // thumb cluster
-        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS
+        KC_TRNS,KC_TRNS,
+        KC_TRNS,
+        KC_TRNS,KC_TRNS,KC_ENT
     ),
 
 
@@ -70,7 +74,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS,             S(KC_QUOT),        S(KC_Q),        S(KC_J),         S(KC_K),        S(KC_X),        KC_TRNS,
         KC_TRNS,KC_TRNS,KC_LCTL,KC_LALT,KC_LGUI,
 // thumb cluster
-        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+                KC_TRNS,KC_TRNS,
+                        KC_TRNS,
+        KC_SPC,KC_TRNS,KC_TRNS,
 // right hand
         KC_0,       KC_2,       KC_4,       KC_6,        KC_8,       KC_GRV,       KC_BSPC,
         KC_TRNS,     S(KC_F),        S(KC_G),        S(KC_C),          S(KC_R),         S(KC_L),         KC_QUES,
@@ -79,7 +85,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // lower keys - browser tab control
         KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
 // thumb cluster
-        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS
+        KC_TRNS,KC_TRNS,
+        KC_TRNS,
+        KC_TRNS,KC_TRNS,KC_ENT
 ),
 
 
