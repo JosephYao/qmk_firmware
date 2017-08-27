@@ -76,7 +76,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // right hand
         KC_0,       KC_2,       KC_4,       KC_6,        KC_8,       KC_GRV,       KC_BSPC,
         KC_TRNS,     S(KC_F),        S(KC_G),        S(KC_C),          S(KC_R),         S(KC_L),         KC_QUES,
-        KC_D,        KC_H,        KC_T,          KC_N,         KC_S,         KC_MINS,
+        S(KC_D),        S(KC_H),        S(KC_T),          S(KC_N),         S(KC_S),         KC_UNDS,
         KC_PGDN,     KC_B,        KC_M,        KC_W,          KC_V,         KC_Z,         KC_TRNS,
 // lower keys - browser tab control
         RSFT(RCTL(KC_TAB)), RCTL(KC_TAB), RCTL(KC_T), LALT(KC_LEFT), RCTL(KC_W),
