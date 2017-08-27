@@ -45,8 +45,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_DLR,                    KC_AMPR,          KC_LBRC,       KC_LCBR,        KC_RCBR,       KC_LPRN,       KC_EQL,
         KC_TAB,                    KC_SCLN,        KC_COMM,     KC_DOT,       KC_P,        KC_Y,        KC_TRNS,
         KC_ESC,              KC_A,           KC_O,        KC_E,         KC_U,        KC_I,
-        MO(SHIFT),             KC_SCLN,        KC_Q,        KC_J,         KC_K,        KC_X,        MO(KEY_NAV),
-                   OSL(SHORTCUTS),OSM(MOD_LCTL), OSM(MOD_LALT),OSL(SYMBOL),MO(NUMBER),  
+        MO(SHIFT),             KC_QUOT,        KC_Q,        KC_J,         KC_K,        KC_X,        KC_TRNS,
+                   KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
                                               // thumb cluster
                                                OSM(MOD_LSFT), RCTL(KC_S),
                                                           RCTL(KC_DEL),
@@ -71,8 +71,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TILD,                    KC_PERC,          KC_7,       KC_5,        KC_3,       KC_1,       KC_9,
         KC_TAB,                    KC_COLN,        S(KC_COMM),     S(KC_DOT),       S(KC_P),        S(KC_Y),        KC_TRNS,
         KC_ESC,              S(KC_A),           S(KC_O),        S(KC_E),         S(KC_U),        S(KC_I),
-        KC_TRNS,             KC_SCLN,        KC_Q,        KC_J,         KC_K,        KC_X,        MO(KEY_NAV),
-        OSL(SHORTCUTS),OSM(MOD_LCTL), OSM(MOD_LALT),OSL(SYMBOL),MO(NUMBER),
+        KC_TRNS,             S(KC_QUOT),        S(KC_Q),        S(KC_J),         S(KC_K),        S(KC_X),        KC_TRNS,
+        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
 // thumb cluster
         OSM(MOD_LSFT), RCTL(KC_S),
         RCTL(KC_DEL),
@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_DOWN,KC_ENT, KC_SPC
 ),
 
-	 
+
 // shell navigation layer
 [SHELL_NAV] = LAYOUT_ergodox(
        // left hand
@@ -117,7 +117,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_TRNS, KC_TRNS, KC_TRNS
 ),
 
-    
+
 // key navigation layer
 [KEY_NAV] = LAYOUT_ergodox(
        // left hand
@@ -202,7 +202,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
-       KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,       
+       KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
                                        KC_TRNS,KC_TRNS,
                                                KC_TRNS,
@@ -212,7 +212,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_TRNS, KC_PLUS, KC_AMPR, KC_ASTR, KC_GRAVE,KC_TILD, KC_TRNS,
                 KC_MINS, KC_DLR,  KC_PERC, KC_CIRC, KC_PIPE, KC_TRNS,
        KC_TRNS, KC_EQUAL,KC_EXLM, KC_AT,   KC_HASH, KC_TRNS, KC_TRNS,
-                         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
+                         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        M(SEMICOLON_NEWLINE), M(END_NEWLINE),
        KC_TRNS,
        KC_TRNS, KC_TRNS, KC_TRNS
