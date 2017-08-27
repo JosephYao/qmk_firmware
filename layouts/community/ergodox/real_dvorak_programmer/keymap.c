@@ -48,9 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         MO(SHIFT),             KC_QUOT,        KC_Q,        KC_J,         KC_K,        KC_X,        KC_TRNS,
                    KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
                                               // thumb cluster
-                                               OSM(MOD_LSFT), RCTL(KC_S),
-                                                          RCTL(KC_DEL),
-                                               KC_BSPC,RCTL(KC_BSPC),KC_DEL,
+                                               KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
         // right hand
              KC_F7,       KC_F8,       KC_F9,       KC_F10,        KC_F11,       KC_F12,       KC_BSLS,
              KC_PGUP,     KC_F,        KC_G,        KC_C,          KC_R,         KC_L,         KC_SLSH,
@@ -74,9 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS,             S(KC_QUOT),        S(KC_Q),        S(KC_J),         S(KC_K),        S(KC_X),        KC_TRNS,
         KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
 // thumb cluster
-        OSM(MOD_LSFT), RCTL(KC_S),
-        RCTL(KC_DEL),
-        KC_BSPC,RCTL(KC_BSPC),KC_DEL,
+        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
 // right hand
         KC_F7,       KC_F8,       KC_F9,       KC_F10,        KC_F11,       KC_F12,       KC_BSLS,
         KC_PGUP,     KC_F,        KC_G,        KC_C,          KC_R,         KC_L,         KC_SLSH,
