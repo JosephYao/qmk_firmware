@@ -70,7 +70,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // left hand
         KC_TILD,                    KC_PERC,          KC_7,       KC_5,        KC_3,       KC_1,       KC_9,
         KC_TAB,                    KC_COLN,        S(KC_COMM),     S(KC_DOT),       S(KC_P),        S(KC_Y),        KC_TRNS,
-        KC_ESC,              S(KC_A),           KC_O,        KC_E,         KC_U,        KC_I,
+        KC_ESC,              S(KC_A),           S(KC_O),        S(KC_E),         S(KC_U),        S(KC_I),
         KC_TRNS,             KC_SCLN,        KC_Q,        KC_J,         KC_K,        KC_X,        MO(KEY_NAV),
         OSL(SHORTCUTS),OSM(MOD_LCTL), OSM(MOD_LALT),OSL(SYMBOL),MO(NUMBER),
 // thumb cluster
