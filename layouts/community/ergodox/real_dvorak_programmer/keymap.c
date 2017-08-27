@@ -57,7 +57,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                           KC_D,        KC_H,        KC_T,          KC_N,         KC_S,         KC_MINS,
              KC_TRNS,     KC_B,        KC_M,        KC_W,          KC_V,         KC_Z,         MO(SHIFT),
                                   // lower keys - browser tab control
-        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+        KC_UP,KC_DOWN,KC_AT,KC_TRNS,KC_BSLASH,
              // thumb cluster
         KC_TRNS,KC_TRNS,
         KC_TRNS,
@@ -83,7 +83,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         S(KC_D),        S(KC_H),        S(KC_T),          S(KC_N),         S(KC_S),         KC_UNDS,
         KC_TRNS,     S(KC_B),        S(KC_M),        S(KC_W),          S(KC_V),         S(KC_Z),         KC_TRNS,
 // lower keys - browser tab control
-        KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
+        KC_UP,KC_DOWN,KC_CIRC,KC_TRNS,KC_PIPE,
 // thumb cluster
         KC_TRNS,KC_TRNS,
         KC_TRNS,
