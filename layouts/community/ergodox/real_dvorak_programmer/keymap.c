@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [BASE] = LAYOUT_ergodox(  // layer 0 : default
         // left hand
         KC_DLR,                    KC_AMPR,          KC_LBRC,       KC_LCBR,        KC_RCBR,       KC_LPRN,       KC_EQL,
-        KC_TAB,                    KC_SCLN,        KC_COMM,     KC_DOT,       KC_P,        KC_Y,        MO(KEY_SEL),
+        KC_TAB,                    KC_SCLN,        KC_COMM,     KC_DOT,       KC_P,        KC_Y,        KC_TRNS,
         KC_ESC,              KC_A,           KC_O,        KC_E,         KC_U,        KC_I,
         MO(SHIFT),             KC_SCLN,        KC_Q,        KC_J,         KC_K,        KC_X,        MO(KEY_NAV),
                    OSL(SHORTCUTS),OSM(MOD_LCTL), OSM(MOD_LALT),OSL(SYMBOL),MO(NUMBER),  
@@ -69,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [SHIFT] = LAYOUT_ergodox(  // layer 0 : default
         // left hand
         KC_TILD,                    KC_PERC,          KC_7,       KC_5,        KC_3,       KC_1,       KC_9,
-        KC_TAB,                    KC_COLN,        S(KC_COMM),     KC_DOT,       KC_P,        KC_Y,        MO(KEY_SEL),
+        KC_TAB,                    KC_COLN,        S(KC_COMM),     S(KC_DOT),       S(KC_P),        S(KC_Y),        KC_TRNS,
         KC_ESC,              S(KC_A),           KC_O,        KC_E,         KC_U,        KC_I,
         KC_TRNS,             KC_SCLN,        KC_Q,        KC_J,         KC_K,        KC_X,        MO(KEY_NAV),
         OSL(SHORTCUTS),OSM(MOD_LCTL), OSM(MOD_LALT),OSL(SYMBOL),MO(NUMBER),
