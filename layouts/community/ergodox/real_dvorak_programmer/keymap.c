@@ -294,6 +294,10 @@ LAYOUT_ergodox(
 
 };
 
+bool all_shift_mod_keys(uint16_t kc) {
+    return kc == KC_TAB || kc == KC_ESC;
+}
+
 bool process_record_user(uint16_t kc, keyrecord_t *rec) {
     if (biton32(layer_state) == SHIFT && rec->event.pressed && all_shift_mod_keys(kc))
         register_mods(MOD_LSFT);
@@ -301,11 +305,6 @@ bool process_record_user(uint16_t kc, keyrecord_t *rec) {
         unregister_mods(MOD_LSFT);
     return true;
 }
-
-bool all_shift_mod_keys(uint16_t kc) {
-    return kc == KC_TAB || kc == KC_ESC;
-}
-
 
 const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
     // MACRODOWN only works in this function
