@@ -94,12 +94,8 @@ LAYOUT_ergodox(  // layer 0 : default
 
 };
 
-bool any_shift_mod_keys(uint16_t kc) {
-    return kc == KC_TAB || kc == KC_ESC;
-}
-
 bool process_record_user(uint16_t kc, keyrecord_t *rec) {
-    if (biton32(layer_state) == SHIFT && rec->event.pressed && any_shift_mod_keys(kc))
+    if (biton32(layer_state) == SHIFT && rec->event.pressed)
         register_mods(MOD_LSFT);
     else
         unregister_mods(MOD_LSFT);
